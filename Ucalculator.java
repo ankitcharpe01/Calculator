@@ -31,6 +31,10 @@ public class Ucalculator{
 		System.out.println("The multiplication of two nos is: " + result);
 		break;
 
+		case 3:
+                double result = division(num1,num2);
+		System.out.println("The multiplication of two nos is: " + result);
+		break;
 
 
                 sc.close();
@@ -46,6 +50,10 @@ public class Ucalculator{
 		
 	public static double multiply(double num1, double num2) {
                 return num1 * num2;
+        }
+        
+        public static double division(double num1, double num2) {
+                return num1 / num2;
         }
 
 
