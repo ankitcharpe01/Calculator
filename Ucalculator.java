@@ -31,9 +31,9 @@ public class Ucalculator{
 		System.out.println("The multiplication of two nos is: " + result);
 		break;
 
-		case 3:
+		case 4:
                 double result = division(num1,num2);
-		System.out.println("The multiplication of two nos is: " + result);
+		System.out.println("The division of two nos is: " + result);
 		break;
 
 
