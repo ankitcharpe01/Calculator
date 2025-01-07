@@ -11,6 +11,7 @@ public class Calculator {
 	{
              System.out.println("HELLO");
              System.out.println(5+5);
-
+             
+             System.out.println(5-5);
 	}
 }
